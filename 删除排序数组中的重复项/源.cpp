@@ -24,8 +24,6 @@ public:
 						nums[SlowIndex++] = nums[FastIndex];
 					}
 				}
-				i--;
-				length--;
 			}
 			
 		}
