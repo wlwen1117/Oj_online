@@ -53,6 +53,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "移除元素法", "移除�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除排序数组中的重复项", "删除排序数组中的重复项\删除排序数组中的重复项.vcxproj", "{84ABEF92-8C0F-4248-995D-C338CED88D53}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "移动零", "移动零\移动零.vcxproj", "{B10B6E12-8057-482A-A92A-F70C4E9B1726}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -149,6 +151,14 @@ Global
 		{84ABEF92-8C0F-4248-995D-C338CED88D53}.Release|x64.Build.0 = Release|x64
 		{84ABEF92-8C0F-4248-995D-C338CED88D53}.Release|x86.ActiveCfg = Release|Win32
 		{84ABEF92-8C0F-4248-995D-C338CED88D53}.Release|x86.Build.0 = Release|Win32
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Debug|x64.ActiveCfg = Debug|x64
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Debug|x64.Build.0 = Debug|x64
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Debug|x86.ActiveCfg = Debug|Win32
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Debug|x86.Build.0 = Debug|Win32
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Release|x64.ActiveCfg = Release|x64
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Release|x64.Build.0 = Release|x64
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Release|x86.ActiveCfg = Release|Win32
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,6 +176,7 @@ Global
 		{F534F1FD-B205-4DAB-A7EF-A00C7AC7A668} = {B7EA3BB1-4A6A-4AD1-819F-ED30B9ECCA8D}
 		{FA539032-A622-40FF-B11B-8CA8DBDC68CA} = {B7EA3BB1-4A6A-4AD1-819F-ED30B9ECCA8D}
 		{84ABEF92-8C0F-4248-995D-C338CED88D53} = {FA539032-A622-40FF-B11B-8CA8DBDC68CA}
+		{B10B6E12-8057-482A-A92A-F70C4E9B1726} = {FA539032-A622-40FF-B11B-8CA8DBDC68CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28E25F1B-7131-42F9-8427-EF4A76EF78AE}

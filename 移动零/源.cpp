@@ -7,21 +7,9 @@ using namespace std;
 
 class Solution {
 public:
-	void moveZeroes(vector<int>& nums) {
+	int removeDuplicates(vector<int>& nums) {
 		int length = nums.size();
-
-		int FastIndex = 1;
-		int SlowIndex = 1;
-		while (FastIndex < length)
-		{
-			
-			if (nums[FastIndex] != nums[FastIndex - 1])
-			{
-				nums[SlowIndex++] = nums[FastIndex];
-			}
-			++FastIndex;	
-
-		}
+		
 	}
 
 };
@@ -29,7 +17,7 @@ public:
 
 int main(void)
 {
-	vector<int> nums = { 1, 1, 2};
+	vector<int> nums = { 1, 1, 2 };
 	Solution it;
 	int result = it.removeDuplicates(nums);
 	cout << result << endl;
