@@ -31,8 +31,8 @@ int main(void)
 {
 	vector<int> nums = { 1, 1, 2};
 	Solution it;
-	int result = it.removeDuplicates(nums);
-	cout << result << endl;
+	it.moveZeroes(nums);
+	//cout << result << endl;
 	for (auto it = nums.begin(); it != nums.end(); ++it)
 	{
 		cout << *it << endl;

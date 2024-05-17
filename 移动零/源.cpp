@@ -7,9 +7,25 @@ using namespace std;
 
 class Solution {
 public:
-	int removeDuplicates(vector<int>& nums) {
+	void moveZeroes(vector<int>& nums) {
 		int length = nums.size();
-		
+		int SP = 0;
+		int FP = 0;
+
+		while (FP < length)
+		{
+			if (nums[FP] != 0)
+			{
+				nums[SP++] = nums[FP];
+			}
+			++FP;
+		}
+
+		while (SP < length)
+		{
+			nums[SP] = 0;
+			++SP;
+		}
 	}
 
 };
@@ -17,10 +33,9 @@ public:
 
 int main(void)
 {
-	vector<int> nums = { 1, 1, 2 };
+	vector<int> nums = { 0,1,0,3,12 };
 	Solution it;
-	int result = it.removeDuplicates(nums);
-	cout << result << endl;
+	it.moveZeroes(nums);
 	for (auto it = nums.begin(); it != nums.end(); ++it)
 	{
 		cout << *it << endl;
